@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>login</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <style>
+
+    body {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      min-height: 100vh;
+    }
+
+    .container {
+      background: white;
+      border-radius: 15px;
+      margin-top: 60px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0072ff;
+      margin-bottom: 20px;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <nav>
+
+    <h1>foodshare</h1>
+
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/donate">donate</a></li>
+      <li><a href="/foods">foods</a></li>
+    </ul>
+
+  </nav>
+
+  <div class="container">
+
+    <h2>login / register</h2>
+
+    <form id="loginform">
+
+      <input
+        type="text"
+        id="name"
+        placeholder="enter name"
+        required
+      >
+
+      <input
+        type="email"
+        id="email"
+        placeholder="enter email"
+        required
+      >
+
+      <input
+        type="password"
+        id="password"
+        placeholder="enter password"
+        required
+      >
+
+      <button type="submit">
+        submit
+      </button>
+
+    </form>
+
+  </div>
+
+  <script src="/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>donate food</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9966, #ff5e62);
+      min-height: 100vh;
+    }
+
+    .container {
+      background: white;
+      border-radius: 15px;
+      margin-top: 50px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ff5e62;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>foodshare</h1>
+
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/foods">foods</a></li>
+      <li><a href="/login">login</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <h2>donate food</h2>
+
+    <form id="foodform">
+
+      <input
+        type="text"
+        id="foodname"
+        placeholder="enter food name"
+        required
+      >
+
+      <input
+        type="number"
+        id="quantity"
+        placeholder="enter quantity"
+        required
+      >
+
+      <input
+        type="text"
+        id="expirytime"
+        placeholder="enter expiry time"
+        required
+      >
+
+      <button type="submit">
+        post food
+      </button>
+
+    </form>
+
+  </div>
+
+  <script src="/js/script.js"></script>
+
+</body>
+</html>

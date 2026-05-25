@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>foodshare</title>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 55px;
+      color: #ff5722;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 22px;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      text-decoration: none;
+      background: linear-gradient(to right, #ff512f, #dd2476);
+      color: white;
+      padding: 15px 30px;
+      border-radius: 10px;
+      margin: 10px;
+      display: inline-block;
+      font-size: 18px;
+    }
+
+    .features {
+      width: 90%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .feature-card h2 {
+      color: #ff5722;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h1>foodshare</h1>
+
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/login">login</a></li>
+      <li><a href="/donate">donate</a></li>
+      <li><a href="/foods">foods</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>share food, save lives</h1>
+
+    <p>
+      donate extra food and help people nearby.
+    </p>
+
+    <a href="/donate">donate food</a>
+    <a href="/foods">find food</a>
+  </section>
+
+  <section class="features">
+
+    <div class="feature-card">
+      <h2>easy donation</h2>
+      <p>post extra food within seconds.</p>
+    </div>
+
+    <div class="feature-card">
+      <h2>help people</h2>
+      <p>connect food donors with needy people.</p>
+    </div>
+
+    <div class="feature-card">
+      <h2>reduce waste</h2>
+      <p>stop wasting good food every day.</p>
+    </div>
+
+  </section>
+
+</body>
+</html>
